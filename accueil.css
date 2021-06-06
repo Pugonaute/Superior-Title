@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section, header, footer, nav, div, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+.slide{
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    height: 100vh;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: "proxima-nova-regular";
+}
+
+.hr{
+    background-color: #ffffff;
+    width: 60px;
+    height: 2.5px;
+    margin: 25px;
+}
+
+p{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* -----SECT1----- */
+#section-section1 {
+    background-image: url(images/tropical.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'superior-title-black';
+    color: white;
+    font-size: 140px;
+    text-align: center;
+}
+
+p{
+    margin-top: 10px;
+    font-family: 'proxima-nova-regular';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.horizon-prev, .horizon-next {
+    position: fixed;
+    top: 47%;
+    z-index: 9999;
+}
+
+.horizon-prev img, .horizon-next img{
+    width: 80px;
+    cursor: pointer;
+}
+
+.horizon-prev {
+    left: 20px;
+}
+
+.horizon-next {
+    right: 20px;
+}
+
+#section-section1 a{
+    margin: 40px 0px 0px 0px;
+    padding: 10px 20px;
+    border: solid white 1px;
+    color: white;
+    background-color: transparent;
+    font-family: 'proxima-nova-regular';
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+ #section-section1 a:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    outline:none
+}
+
+#section-section1 a:focus {
+    outline:  none;
+    color: black;
+    border: solid white 1px;
+    background-color: white; 
+}
+
+
+@media (max-width: 1024px){
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .horizon-prev img, .horizon-next img {
+        width: 70px
+    }
+
+    #section-section1 a{
+        padding: 8px 18px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px){
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .horizon-prev img, .horizon-next img {
+        width: 60px
+    }
+
+    #section-section1 a{
+        margin: 30px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 425px){
+
+    .horizon-prev, .horizon-next {
+        top: 91%;
+    }
+
+    .horizon-next {
+        right: 25px;
+    }
+}
+
+@media (max-width: 375px){
+
+    h1 {
+        font-size: 70px;
+    }
+
+    #section-section1 a {
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 320px){
+
+    h1 {
+        font-size: 60px;
+    }
+    
+    .horizon-next{
+        top: 86%;
+    }
+}
+
+

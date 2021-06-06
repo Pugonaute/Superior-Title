@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section, header, footer, nav, div, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+.slide{
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    height: 100vh;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: "proxima-nova-regular";
+}
+
+.hr{
+    background-color: #ffffff;
+    width: 60px;
+    height: 2.5px;
+    margin: 25px;
+}
+
+p{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* -----SECT1----- */
+#section-section1 {
+    background-image: url(images/foret3.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'superior-title-black';
+    color: white;
+    font-size: 160px;
+}
+
+
+/* -----SECT2----- */
+#section-section2 {
+    background-image: url(images/montagne.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.light{
+    font-family: 'superior-title-light';
+}
+
+/* -----SECT3----- */
+#section-section3 {
+    background-image: url(images/foret2.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.regular{
+    font-family: 'superior-title-regular';
+}
+/* -----SECT4----- */
+
+#section-section4 {
+    background-image: url(images/foret.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.medium{
+    font-family: 'superior-title-medium';
+}
+/* -----SECT5----- */
+
+#section-section5{
+    background-image: url(images/brume.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-family: 'superior-title-bold';
+}
+/* -----SECT6----- */
+
+#section-section6 {
+    background-image: url(images/chemin.png);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.black{
+    font-family: 'superior-title-black';
+}
+
+.horizon-prev, .horizon-next {
+    position: fixed;
+    top: 47%;
+    z-index: 9999;
+}
+
+.horizon-prev img, .horizon-next img{
+    width: 80px;
+    cursor: pointer;
+}
+
+.page-next, .page-prev{
+    position: fixed;
+    display: none;
+    top: 47%;
+    z-index: 9999;
+}
+
+.page-next img, .page-prev img{
+    width: 80px;
+    cursor: pointer;
+}
+
+.horizon-prev {
+    left: 20px;
+}
+
+.page-prev{
+    left: 20px;
+}
+
+.page-prev a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.horizon-next {
+    right: 20px;
+}
+
+.page-next{
+    right: 20px;
+}
+
+.page-next a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* -----FOOTER----- */
+footer {
+    position: fixed;
+    top: 90vh;
+    right: 0;
+    left: 100px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer li{
+    margin: 15px;
+    list-style: none;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+}
+
+footer a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "proxima-nova-regular";
+    opacity: 0.5;
+    transition: ease 0.5 all;
+}
+
+.part0{
+    font-family: "superior-title-regular-italic";
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.surbrillance{
+    opacity: 1;
+}
+
+
+/* -----FOOTER----- */
+
+@media (max-width: 1024px){
+
+    h1{
+        font-size: 120px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 54px;
+    }
+
+    .horizon-prev img, .horizon-next img{
+        width: 70px
+    }
+
+    .page-next img, .page-prev img{
+        width: 70px;
+    }
+
+    #section-section1 a{
+        padding: 8px 18px;
+        font-size: 18px;
+    }
+
+    footer a{
+        font-size: 12px;
+    }
+    
+    .part0{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px){
+
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    .horizon-prev img, .horizon-next img {
+        width: 60px
+    }
+
+    .page-next img, .page-prev img {
+        width: 60px;
+    }
+
+    #section-section1 a{
+        margin: 30px 0px 0px 0px;
+    }
+
+    footer {
+        left: 115px;
+    }
+}
+
+@media (max-width: 425px){
+
+    h1{
+        font-size: 80px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .hr{
+        height: 1.5px;
+    }
+
+    p{
+        font-size: 26px;
+    }
+
+    .horizon-prev, .horizon-next{
+        top: 84%;
+    }
+
+    .page-prev, .page-next{
+        top: 84%;
+    }
+
+    .horizon-next{
+        right: 25px;
+    }
+
+    .page-next{
+        right: 25px;
+    }
+
+    .horizon-prev{
+        left: 25px;
+    }
+
+    .page-prev{
+        left: 25px;
+    }
+
+    footer{
+        right: 10px;
+        left: 10px;
+        top: 92vh;
+    }
+
+    .part0{
+        font-size: 16px;
+    }
+
+    footer a{
+        font-size: 12px;
+    }
+
+    footer li{
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px){
+
+    h1 {
+        font-size: 70px;
+    }
+
+    footer li {
+        margin: 8px;
+    }
+}
+
+@media (max-width: 320px){
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .part0 {
+        font-size: 14px;
+    }
+
+    footer li {
+        margin: 6px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    .horizon-prev, .horizon-next{
+        top: 80%;
+    }
+
+    .page-prev, .page-next{
+        top: 80%;
+    }
+}

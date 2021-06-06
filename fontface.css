@@ -1,0 +1,120 @@
+/* -----FONTFACE----- */
+@font-face {
+    font-family: "superior-title-light";
+    src: url("fonts/superior-title-light.otf") format("otf");
+}
+@font-face {
+    font-family: "superior-title-light-italic";
+    src: url("fonts/superior-title-light-italic.otf") format("otf");
+}
+
+
+@font-face {
+    font-family: "superior-title-regular";
+    src: url("fonts/superior-title-regular.otf") format("otf");
+}
+@font-face {
+    font-family: "superior-title-regular-italic";
+    src: url("fonts/superior-title-regular-italic.otf") format("otf");
+}
+
+
+@font-face {
+    font-family: "superior-title-medium";
+    src: url("fonts/superior-title-medium.otf") format("otf");
+}
+@font-face {
+    font-family: "superior-title-medium-italic";
+    src: url("fonts/superior-title-medium-italic.otf") format("otf");
+}
+
+
+@font-face {
+    font-family: "superior-title-bold";
+    src: url("fonts/superior-title-bold.otf") format("otf");
+}
+@font-face {
+    font-family: "superior-title-bold-italic";
+    src: url("fonts/superior-title-bold-italic.otf") format("otf");
+}
+
+
+@font-face {
+    font-family: "superior-title-black";
+    src: url("fonts/superior-title-black.otf") format("otf");
+}
+@font-face {
+    font-family: "superior-title-black-italic";
+    src: url("fonts/superior-title-black-italic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "proxima-nova-regular";
+    src: url("fonts/proxima-nova-regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "proxima-nova-bold";
+    src: url("fonts/proxima-nova-bold.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "superior-title-light";
+    src: url("fonts/superior-title-light.woff2") format("woff2");
+}
+@font-face {
+    font-family: "superior-title-light-italic";
+    src: url("fonts/superior-title-light-italic.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "superior-title-regular";
+    src: url("fonts/superior-title-regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "superior-title-regular-italic";
+    src: url("fonts/superior-title-regular-italic.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "superior-title-medium";
+    src: url("fonts/superior-title-medium.woff2") format("woff2");
+}
+@font-face {
+    font-family: "superior-title-medium-italic";
+    src: url("fonts/superior-title-medium-italic.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "superior-title-bold";
+    src: url("fonts/superior-title-bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "superior-title-bold-italic";
+    src: url("fonts/superior-title-bold-italic.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "superior-title-black";
+    src: url("fonts/superior-title-black.woff2") format("woff2");
+}
+@font-face {
+    font-family: "superior-title-black-italic";
+    src: url("fonts/superior-title-black-italic.woff2") format("woff2");
+}
+
+
+
+@font-face {
+    font-family: "proxima-nova-regular";
+    src: url("fonts/proxima-nova-regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "proxima-nova-bold";
+    src: url("fonts/proxima-nova-bold.woff2") format("woff2");
+}
+/* -----FONTFACE----- */
